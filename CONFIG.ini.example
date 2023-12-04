@@ -1,0 +1,20 @@
+[DEFAULT]
+# database connection defaults
+user = postgres
+host = localhost
+admin_db = postgres
+
+# app internal configurations
+[APP]
+first_use = true
+log_dir = log
+
+# postgres related configurations
+[DATABASE]
+password =
+
+# placeholder for runtime configurations
+# will be filled by the application on runtime, don't fill configs for this section
+[RUNNING]
+first_db =
+second_db =
