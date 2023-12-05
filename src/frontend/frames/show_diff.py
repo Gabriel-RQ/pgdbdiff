@@ -299,7 +299,7 @@ class FRAME_ShowDiff(CTkFrame):
 
     def on_do_diff(self) -> None:
         if CONFIGS["RUNNING"]["first_db"] == CONFIGS["RUNNING"]["second_db"]:
-            messagebox.showwarning("Warning", "Select different dataases to compare.")
+            messagebox.showwarning("Warning", "Select different databases to compare.")
             return
 
         if threading.active_count() > 1:
